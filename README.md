@@ -39,8 +39,8 @@ Open the folder.
 Run the project by opening index.html in your browser.
 
 📸 Preview
+<img width="1357" height="587" alt="Screenshot From 2025-12-07 17-34-18" src="https://github.com/user-attachments/assets/9845368e-c513-4225-b93b-79d7be228c19" />
 
-(Add screenshot here after you push it)
 
 🤝 Contributing
 
