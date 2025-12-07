@@ -46,15 +46,3 @@ Run the project by opening index.html in your browser.
 
 Feel free to submit issues or pull requests!
 
-📜 License
-
-This project is open-source and available under the MIT License.
-
-👍 You're ready to push to GitHub!
-
-If you want, I can also:
-✅ Improve UI further
-✅ Write a more advanced README
-✅ Generate a screenshot for your README (HTML preview)
-
-Just tell me!
