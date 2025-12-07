@@ -1,0 +1,97 @@
+/* GENERAL PAGE STYLE */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #82e1e7, #2575fc);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.todo-container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 16px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+/* HEADING */
+.todo-container h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+/* INPUT + BUTTON WRAPPER */
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* INPUT FIELD */
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* ADD BUTTON */
+button {
+    padding: 12px 20px;
+    background: #ffffff;
+    color: #2575fc;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #dfe9ff;
+    transform: scale(1.03);
+}
+
+/* TODO LIST */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* TODO ITEM */
+li {
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* DELETE BUTTON */
+.delete {
+    background: #292626;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.delete:hover {
+    background: #494343;
+    transform: scale(1.07);
+}
